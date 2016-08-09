@@ -3,8 +3,10 @@ code u final project
 
 Google CodeU Final Project 
 ----------------------------------------
+
 Eehita Parameswaran, Purdue University
 Eiman Ahmed, Pace University
+
 ----------------------------------------
 Description:
 1. Improved performance of search algorithm

@@ -4,7 +4,7 @@ code u final project
 Google CodeU Final Project 
 ----------------------------------------
 
-Eehita Parameswaran, Purdue University
+Eehita Parameswaran, Purdue University AND
 Eiman Ahmed, Pace University
 
 ----------------------------------------

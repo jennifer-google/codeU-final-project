@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="PersonalWikiSearch.PreferencesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PersonalWikiSearch"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.TopAppBar>
+        <CommandBar x:ConnectionId='1' x:Name="AppCommandBar" Visibility="Visible" Background="#a56f7b" Foreground="White" >
+            <CommandBar.Content>
+                <Grid/>
+            </CommandBar.Content>
+            <AppBarButton x:ConnectionId='2' x:Name="HomeButton" Icon="Home" Label="Home" Foreground="White"                          />
+            <AppBarButton x:ConnectionId='3' x:Name="PreferencesButton" Icon="Setting" Label="Preferences" Foreground="White"                                />
+            <AppBarButton x:ConnectionId='4' x:Name="HelpButton" Icon="Help" Label="Help" Foreground="White" />
+            <AppBarButton x:ConnectionId='5' x:Name="UserButton" Icon="Contact" Label="Profile" Foreground="White"                          />
+        </CommandBar>
+    </Page.TopAppBar>
+    
+    <Grid Background="#e4d3d7 ">
+        <TextBlock x:ConnectionId='6' x:Name="InterestsBlock" Text="Interests" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="50" Padding="40" FontFamily="Cambria" Foreground="#734d56" />
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+            <Image Source="Assets/pref.png" Height="300" Width="300"/>
+            <TextBox x:ConnectionId='7' x:Name="InterestOne" Text="Interest #1" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="60" Margin="0,30,0,0"/>
+            <TextBox x:ConnectionId='8' x:Name="InterestTwo" Text="Interest #2" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="60" Margin="0,30,0,0" />
+            <TextBox x:ConnectionId='9' x:Name="InterestThree" Text="Interest #3" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Height="60" Margin="0,30,0,0"/>
+            <Button x:ConnectionId='10' Width="500" Height="60" FontSize="20" Foreground="White" Background="#a56f7b" x:Name="SaveInterests" Content="Search" Margin="0,30,0,0"/>
+        </StackPanel>
+    </Grid>
+    
+</Page>
+

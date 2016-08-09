@@ -1,6 +1,3 @@
-# codeU-final-project
-code u final project
-
 Google CodeU Final Project 
 ----------------------------------------
 
